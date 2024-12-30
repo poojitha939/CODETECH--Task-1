@@ -13,7 +13,11 @@ Mentor Name: NEELA SANTHOSH KUMAR
 
 ## Overview of the project
 
-### Project: Fraud Detection in Financial Transcation
+## Project: Fraud Detection in Financial Transcation
+![image](https://github.com/user-attachments/assets/09cd0212-7182-4f2b-9aec-0b72ace7057e)
+![Screenshot 2024-12-30 133030](https://github.com/user-attachments/assets/134ab375-cda2-4c12-9c04-ec892ef8b1e6)
+
+
 
 # Objective
 The objective of Fraud Detection in Financial Transactions is to identify and prevent fraudulent activities in financial systems by analyzing transaction patterns and detecting anomalies. 
@@ -28,9 +32,13 @@ The objective of Fraud Detection in Financial Transactions is to identify and pr
 
 ### Technologies Used
 -**Python**: The primary programming language for data analysis.
+
 -**pandas**: Used for data manipulation and analysis.
+
 -**matplotlib**: Used for creating static, animated, interactive visualizations.
+
 -**Scikit-learn**: It is a machine learning library in Python used for implementing various algorithms.
+
 -**seaborn**: Used for creating attractive and informative statistical data visualizations, making it easier to explore and understand data.
 
   
