@@ -1,8 +1,13 @@
 Name: KOKKALAKONDA POOJITHA
+
 Company: CODETECH IT SOLUTIONS
+
 ID: CT08FKD
+
 Domain: Data Analytics
+
 Duration: Dec 2024 to Jan 2025
+
 Mentor Name: NEELA SANTHOSH KUMAR 
 
 
@@ -41,4 +46,4 @@ The objective of Fraud Detection in Financial Transactions is to identify and pr
 
 
 
-ChatGPT
+
