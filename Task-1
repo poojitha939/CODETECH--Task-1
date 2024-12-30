@@ -1,33 +1,25 @@
-
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 np.random.seed(42)
-
 data = {
     'TransactionAmount': np.append(np.random.normal(50, 10, 1000), [500, 600, 700]),
     'TransactionTime': np.append(np.random.uniform(0, 24, 1000), [2, 15, 20]),
 }
 df = pd.DataFrame(data)
-
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df, x='TransactionTime', y='TransactionAmount')
 plt.title('Transaction Data')
 plt.xlabel('Transaction Time (Hours)')
 plt.ylabel('Transaction Amount')
 plt.show()
-
 isolation_forest = IsolationForest(contamination=0.01, random_state=42)
 df['Anomaly'] = isolation_forest.fit_predict(df[['TransactionAmount', 'TransactionTime']])
-
 fraudulent_transactions = df[df['Anomaly'] == -1]
-
 print("Detected Fraudulent Transactions:")
 print(fraudulent_transactions)
-
 plt.figure(figsize=(10, 6))
 sns.scatterplot(
     data=df, 
